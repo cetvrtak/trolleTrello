@@ -13,10 +13,10 @@ config :trolle,
 # Configures the endpoint
 config :trolle, TrolleWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "bdz51K1xU2Eq1Kr0wu0670Zj/zPWWpXZ/RKlCI6MZ83nvkr9P4ErEIuuAjSJyqUf",
+  secret_key_base: "UPrMOE0Upb9RgDOwgrqM5ZDufojs6A3E66z5CNuc0y5Z+B4vcdVz3wVoKhdSEknF",
   render_errors: [view: TrolleWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Trolle.PubSub,
-  live_view: [signing_salt: "GDMbbPUD"]
+  live_view: [signing_salt: "e2n/mFFh"]
 
 # Configures Elixir's Logger
 config :logger, :console,

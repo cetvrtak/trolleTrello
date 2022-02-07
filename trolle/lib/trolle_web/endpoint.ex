@@ -7,7 +7,7 @@ defmodule TrolleWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_trolle_key",
-    signing_salt: "0CH1hNwU"
+    signing_salt: "tu69QGIG"
   ]
 
   socket "/socket", TrolleWeb.UserSocket,
